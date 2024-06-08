@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Framework</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hbox">
+        <button>do</button>
+        <button>stuff</button>
+        <button>left</button>
+        <span class="grow"></span>
+        <b>Your CSS Framework</b>
+        <span class="grow"></span>
+        <button class="fa fa-cut"></button>
+        <button class="fa fa-copy"></button>
+        <button class="fa fa-paste"></button>
+    </div>
+    <div class="vbox panel" id="sources">
+        <div class="header">Sources</div>
+        <div class="scroll">
+            <ul>
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+                <!-- More list items as needed -->
+            </ul>
+        </div>
+    </div>
+    <form class="vbox">
+        <div class="hbox">
+            <label for="input1">Label 1</label>
+            <input type="text" id="input1">
+        </div>
+        <div class="hbox">
+            <label for="input2">Label 2</label>
+            <input type="text" id="input2">
+        </div>
+        <div class="hbox">
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox1">Checkbox</label>
+        </div>
+        <div class="hbox">
+            <input type="radio" id="radio1" name="radio">
+            <label for="radio1">Radio Button</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

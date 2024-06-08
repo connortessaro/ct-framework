@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@typopro/web-source-code-pro": "^3.7.5",
+    "@typopro/web-source-sans-pro": "^3.7.5",
+    "@typopro/web-source-serif-pro": "^3.7.5",
+    "font-awesome": "^4.7.0"
+  }
+}
