@@ -1,7 +1,3 @@
-Sure! Here’s a sample README for your GitHub repository:
-
----
-
 # Simple Web Framework
 
 This project demonstrates how to create a simple web framework using minimal custom CSS and JavaScript. This lightweight framework provides essential utilities for layout, styling, and event handling, making it a great starting point for basic web development without relying on heavier frameworks.
